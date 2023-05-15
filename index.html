@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <fieldset id="producto-contenedor">
+        <img src="https://www.naldo.com.ar/medias/504562.jpg-515Wx515H?context=bWFzdGVyfHJvb3R8NjgxNzN8aW1hZ2UvanBlZ3xoNDQvaGViLzk1NTAwNzAwMjIxNzQuanBnfGIxNTQ2OGIzYzU5MDgwNzI3YzE0ZTAxZjU0NGMwYzFlY2I2MmUzODg1Y2ViNzk5MDRmMTRjODQ5Y2M4YTY0N2I"
+            alt="">
+        <p>Playstation 5</p>
+        <p id="precio-prod">Precio: $500</p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Cantidad:</legend>
+        <select name="" id="">
+            <option value="1">1</option>
+            <option value="3">3</option>
+            <option value="7">7</option>
+        </select>
+        <button onclick="agregarProducto()" id="boton-agregar">Agregar</button>
+    </fieldset>
+
+    
+    <button id="siguiente-producto">Siguiente producto</button>
+
+    <p id="precio-total">Total: $0</p>
+    <fieldset>
+        <legend>Carrito:</legend>
+        <ol id="carrito">
+
+        </ol>
+    </fieldset>
+    <script src="script.js"></script>
+</body>
+
+</html>

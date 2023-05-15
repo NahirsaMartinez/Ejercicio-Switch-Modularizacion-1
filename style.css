@@ -1,0 +1,37 @@
+body{
+    font-size:larger;
+    display:grid;
+    place-content: center;
+    background-color: whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+
+img{
+    width: 40vh;
+}
+
+
+
+fieldset{
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+#boton-agregar{
+    background-color: rgb(240, 240, 72) ;
+    border: 2px solid orange;
+    width: 100px;
+    font-weight: bolder;
+}
+
+#siguiente-producto{
+    margin-top:10px ;
+    background-color: rgb(209, 208, 208);
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-weight: 2px;
+}
